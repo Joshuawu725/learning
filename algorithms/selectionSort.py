@@ -13,3 +13,4 @@ def selectionSort(arr):
         smallest = findSmallest(arr)
         newArr.append(arr.pop(smallest_index))
     return newArr
+
